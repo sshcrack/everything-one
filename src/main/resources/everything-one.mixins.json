@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "me.sshcrack.everything_one.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "HungerManagerMixin",
+    "PlayerEntityMixin",
+    "PlayerInventoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

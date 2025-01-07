@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "me.sshcrack.everything_one.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"HandledScreenMixin",
+		"InGameHudMixin",
+		"MinecraftClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
